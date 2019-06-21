@@ -5,6 +5,9 @@
 * [Default.aspx.cs](./CS/WebSite/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/WebSite/Default.aspx.vb))
 <!-- default file list end -->
 # How to detect state of a detail row on the client side
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/e1355/)**
+<!-- run online end -->
 
 
 <p>In this example, custom JavaScript properties are used to transfer detail row states to the client side.</p>

@@ -10,7 +10,7 @@ public partial class _Default : System.Web.UI.Page {
             grid.DetailRows.ExpandRow(2);
         }
     }
-    protected void grid_CustomJSProperties(object sender, DevExpress.Web.ASPxGridView.ASPxGridViewClientJSPropertiesEventArgs e) {
+    protected void grid_CustomJSProperties(object sender, DevExpress.Web.ASPxGridViewClientJSPropertiesEventArgs e) {
         Hashtable table = new Hashtable(grid.DetailRows.VisibleCount);
         for(int i = 0; i < grid.VisibleRowCount; i++) {
             if(grid.DetailRows.IsVisible(i))

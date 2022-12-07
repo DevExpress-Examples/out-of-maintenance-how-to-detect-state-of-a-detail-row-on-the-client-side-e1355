@@ -12,7 +12,7 @@ Partial Public Class _Default
 			grid.DetailRows.ExpandRow(2)
 		End If
 	End Sub
-	Protected Sub grid_CustomJSProperties(ByVal sender As Object, ByVal e As DevExpress.Web.ASPxGridView.ASPxGridViewClientJSPropertiesEventArgs)
+	Protected Sub grid_CustomJSProperties(ByVal sender As Object, ByVal e As DevExpress.Web.ASPxGridViewClientJSPropertiesEventArgs)
 		Dim table As New Hashtable(grid.DetailRows.VisibleCount)
 		For i As Integer = 0 To grid.VisibleRowCount - 1
 			If grid.DetailRows.IsVisible(i) Then
